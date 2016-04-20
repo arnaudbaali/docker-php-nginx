@@ -2,6 +2,9 @@ Docker Nginx PHP Node
 =====================
 
 ![Tavis Image](https://travis-ci.org/arnaudbaali/docker-php-nginx.svg?branch=master)
+![Docker logo](https://sematext.com/img/partners-logos/docker.jpg)
+![Node logo](http://lorenzostella.it/php/nodejs.png)
+![Sf Logo](http://1.bp.blogspot.com/-ItoDJoqdeBs/Uk2WuZdk53I/AAAAAAAADw0/CeubII9wDVA/s1600/symfony_logo.png)
 
 use this docker project if you want to launch a php or node project with Nginx.
 
