@@ -1,0 +1,29 @@
+app:
+  build: app
+  volumes:
+    - ./src:/var/www/symfony
+  tty: true
+php:
+  build: php
+  ports:
+    - "9000:9000"
+  volumes_from:
+    - app
+web:
+  build: nginx
+  ports:
+    - "80:80"
+  links:
+    - php
+  volumes_from:
+    - app
+composer:
+  image: composer/composer
+  volumes_from:
+    - app
+  working_dir: /var/www/symfony
+node:
+  build: node
+  volumes_from:
+    - app
+  working_dir: /var/www/symfony
