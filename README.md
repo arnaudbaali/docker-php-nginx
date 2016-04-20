@@ -1,6 +1,8 @@
 Docker Nginx PHP Node
 =====================
 
+![Tavis Image](https://travis-ci.org/arnaudbaali/docker-php-nginx.svg?branch=master)
+
 use this docker project if you want to launch a php or node project with Nginx.
 
 ## List of components
