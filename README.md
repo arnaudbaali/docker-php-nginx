@@ -18,9 +18,9 @@ You must have Docker installed and running on your machine before using this pro
 
 ### Steps
 
- 1. Create a src folder on this root directory
- 2. Pull your code inside it
- 3. Launch dockers
+ 1. Create a **src** folder on this project root directory
+ 2. Pull/Put your code inside it
+ 3. Run dockers-compose
 
 ## Commands for the dockers
 
